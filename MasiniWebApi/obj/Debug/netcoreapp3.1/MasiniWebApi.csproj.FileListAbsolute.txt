@@ -1,0 +1,10 @@
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\MasiniWebApi.exe
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.csprojAssemblyReference.cache
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.AssemblyInfoInputs.cache
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.AssemblyInfo.cs
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.RazorTargetAssemblyInfo.cache
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\staticwebassets\MasiniWebApi.StaticWebAssets.Manifest.cache
+D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\staticwebassets\MasiniWebApi.StaticWebAssets.xml

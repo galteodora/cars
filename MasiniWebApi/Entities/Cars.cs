@@ -20,7 +20,7 @@ namespace MasiniWebApi.Entities
         public string Descriptiom { get; set; }
 
         [Required]
-        public string ModelId { get; set; }
+        public Guid ModelId { get; set; }
 
         [ForeignKey("ModelId")]
         public virtual Model Model { get; set; }

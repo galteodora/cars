@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using MasiniWebApi.Contexts;
+using MasiniWebApi.Services.Repository;
+using MasiniWebApi.Services.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -25,6 +28,12 @@ namespace MasiniWebApi
         {
             var connectionString = Configuration["ConnectionStrings:CarsDBConnectionString"];
             services.AddDbContext<CarsContext>(o => o.UseSqlServer(connectionString));
+
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserUnitOfWork, UserUnitOfWork>();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

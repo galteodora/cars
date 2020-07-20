@@ -33,6 +33,7 @@ namespace MasiniWebApi
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserUnitOfWork, UserUnitOfWork>();
 
+            services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 

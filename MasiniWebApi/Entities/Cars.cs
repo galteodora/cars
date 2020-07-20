@@ -11,7 +11,7 @@ namespace MasiniWebApi.Entities
     {
         [Key]
         public Guid ID { get; set; }
-
+        public Guid Id { get; internal set; }
         [Required]
         [MaxLength(150)]
         public string Name { get; set; }

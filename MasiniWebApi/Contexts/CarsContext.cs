@@ -17,6 +17,6 @@ namespace MasiniWebApi.Contexts
 
         public DbSet<Model> Models { get; set; }
 
-        public DbSet<Cars> Car { get; set; }
+        public DbSet<Cars> Cars { get; set; }
     }
 }

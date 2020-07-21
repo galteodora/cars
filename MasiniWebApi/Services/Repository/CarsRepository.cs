@@ -30,9 +30,5 @@ namespace MasiniWebApi.Services.Repository
             throw new NotImplementedException();
         }
 
-        Cars ICarsRepository.GetCarsDetails(Guid carsId)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

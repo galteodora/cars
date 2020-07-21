@@ -57,10 +57,10 @@ namespace CarsWebApi.Controllers
 
             _carsUnit.Complete();
 
-            _carsUnit.Car.Get(carsEntity.Id);
+            _carsUnit.Car.Get(carsEntity.id);
 
             return CreatedAtRoute("GetCar",
-                new { id = carsEntity.Id },
+                new { id = carsEntity.id },
                 _mapper.Map<CarsDTO>(carsEntity));
         }
         #endregion Car
@@ -96,14 +96,19 @@ namespace CarsWebApi.Controllers
         [HttpPost]
         public IActionResult AddModel([FromBody] ModelDTO model)
         {
+            if (model is null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
             var modelEntity = _mapper.Map<Model>(model);
             _carsUnit.Models.Add(modelEntity);
 
             _carsUnit.Complete();
 
-            _carsUnit.Models.Get(modelEntity.Id);
+            _carsUnit.Models.Get(modelEntity.ID);
 
-            return CreatedAtRoute("GetModel", new { modelId = modelEntity.Id },
+            return CreatedAtRoute("GetModel", new { modelId = modelEntity.ID },
                 _mapper.Map<ModelDTO>(modelEntity));
         }
 
@@ -111,7 +116,7 @@ namespace CarsWebApi.Controllers
         [HttpPut]
         public IActionResult AudiModelAsDeleted(Guid modelId)
         {
-            var model = _carsUnit.Models.FindDefault(a => a.Id.Equals(modelId) && (a.Deleted == false || a.Deleted == null));
+            var model = _carsUnit.Models.FindDefault(a => a.ID.Equals(modelId) && (a.Deleted == false || a.Deleted == null));
             if (model != null)
             {
                 model.Deleted = true;

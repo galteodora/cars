@@ -20,7 +20,7 @@ namespace MasiniWebApi.Services.Repository
         public Cars GetCarsDetails(Guid carsId)
         {
             return _context.Cars
-                .Where(b => b.Id == carsId && (b.Deleted == false || b.Deleted == null))
+                .Where(b => b.id == carsId && (b.Deleted == false || b.Deleted == null))
                 .Include(b => b.Model)
                 .FirstOrDefault();
         }

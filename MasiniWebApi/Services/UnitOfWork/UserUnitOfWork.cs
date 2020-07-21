@@ -19,7 +19,6 @@ namespace MasiniWebApi.Services.UnitOfWork
 
         public IUserRepository Users { get; }
 
-        IUserRepository IUserUnitOfWork.Users => throw new NotImplementedException();
 
         public int Complete()
         {

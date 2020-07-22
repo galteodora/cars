@@ -13,11 +13,11 @@ namespace MasiniWebApi.Entities
         public Guid ID { get; set; }
         public Guid id { get; internal set; }
         [Required]
-        [MaxLength(150)]
-        public string Name { get; set; }
+        [MaxLength(20)]
+        public string Make { get; set; }
 
-        [MaxLength(2500)]
-        public string Descriptiom { get; set; }
+        [MaxLength(20)]
+        public string Name { get; set; }
 
         [Required]
         public Guid ModelId { get; set; }

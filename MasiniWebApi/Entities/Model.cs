@@ -12,9 +12,19 @@ namespace MasiniWebApi.Entities
         public Guid ID { get; set; }
 
         [Required]
-        [MaxLength(150)]
-        public string Name { get; set; }
+        public string Year { get; set; }
 
+        [Required]
+        public string Mileage { get; set; }
+
+        [Required]
+        public string  Power { get; set; }
+
+        [Required]
+        public string Fuel { get; set; }
+
+        [Required]
+        public string Transimission { get; set; }
 
         public bool? Deleted { get; set; }
     }

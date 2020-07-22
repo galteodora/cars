@@ -10,12 +10,13 @@ namespace MasiniWebApi.ExternalModels
 
         public Guid Id { get; set; }
 
-        public string Title { get; set; }
+        public string Make { get; set; }
 
-        public string Description { get; set; }
+        public string Name { get; set; }
 
         public Guid ModelId { get; set; }
 
-      ///  public AuthorDTO Author { get; set; }
+        public ModelDTO Model { get; set; }
+
     }
 }

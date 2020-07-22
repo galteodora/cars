@@ -31,7 +31,11 @@ namespace MasiniWebApi
 
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICarsRepository, CarsRepository>();
+            services.AddScoped<IModelRepository, ModelRepository>();
+
             services.AddScoped<IUserUnitOfWork, UserUnitOfWork>();
+            services.AddScoped<ICarsUnitOfWork, CarsUnitOfWork>();
 
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

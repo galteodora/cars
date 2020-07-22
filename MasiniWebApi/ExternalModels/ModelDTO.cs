@@ -9,7 +9,15 @@ namespace MasiniWebApi.ExternalModels
     {
         public Guid Id { get; set; }
 
-        public string Name { get; set; }
+        public string Year { get; set; }
+
+        public string Mileage { get; set; }
+
+        public string Power { get; set; }
+
+        public string Fuel { get; set; }
+
+        public string Transimission { get; set; }
 
     }
 }

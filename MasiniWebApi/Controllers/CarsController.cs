@@ -50,7 +50,7 @@ namespace CarsWebApi.Controllers
 
         [Route("add", Name = "Add a new car")]
         [HttpPost]
-        public IActionResult AddCae([FromBody] CarsDTO cars)
+        public IActionResult AddCars([FromBody] CarsDTO cars)
         {
             var carsEntity = _mapper.Map<Cars>(cars);
             _carsUnit.Car.Add(carsEntity);

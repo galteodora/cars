@@ -10,8 +10,8 @@ namespace MasiniWebApi.Entities
     public class Cars
     {
         [Key]
-        public Guid ID { get; set; }
-        public Guid id { get; internal set; }
+        public Guid id { get; set; }
+       
         [Required]
         [MaxLength(20)]
         public string Make { get; set; }

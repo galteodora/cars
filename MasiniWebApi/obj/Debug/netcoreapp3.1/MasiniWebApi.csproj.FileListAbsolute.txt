@@ -115,7 +115,6 @@ D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\runtimes\win
 D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\FACULTATE\Practica IBM\cars\MasiniWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.csprojAssemblyReference.cache
 D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.csproj.CoreCompileInputs.cache
 D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.MvcApplicationPartsAssemblyInfo.cache
 D:\FACULTATE\Practica IBM\cars\MasiniWebApi\obj\Debug\netcoreapp3.1\MasiniWebApi.AssemblyInfoInputs.cache
